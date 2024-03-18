@@ -6,8 +6,8 @@
   - After 10 operations, the program will display the number of correct answers and will print the solution to the ones the user has done wrong.
 
 ## Files
-  - main.py is where the source code resiedes
-  - result.txt is the file the program takes as input. It contains the mathematicaal operations that the user will be asked to solve
+  - main.py is where the source code resides
+  - result.txt is the file the program takes as input. It contains the mathematical operations that the user will be asked to solve
 
 ## Contributors
 [gelat0o](https://github.com/gelat0o)
