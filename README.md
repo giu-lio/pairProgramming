@@ -10,5 +10,5 @@
   - result.txt is the file the program takes as input. It contains the mathematicaal operations that the user will be asked to solve
 
 ## Contributors
-gelat0o
+[gelat0o](https://github.com/gelat0o)
 giu-lio
