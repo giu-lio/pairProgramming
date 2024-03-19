@@ -1,3 +1,5 @@
+import time
+
 #This function reads the file
 def file_reader():
     exercises = []
@@ -60,10 +62,13 @@ def main():
     choice = True
     while choice:
         counter = 0
+        start_time = time.time()
         exercise_list = addDecision(exercise_list)
+        end_time = time.time()
         [exercise_list, counter] = compare(exercise_list, counter)
 
-        #Print number of right answers and wrong answers
+        #Print elapsed time, number of right answers and wrong answers
+        print(f"\nElapsed time = {end_time - start_time:.2f} seconds")
         print(f"The number of right answers is {counter}\nThe wrong answers are:")
         printWrongAnswers(exercise_list)
 
